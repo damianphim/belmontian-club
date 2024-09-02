@@ -1,3 +1,7 @@
+I kind of wanted this to be like a school setting, so I used a 3D enivornment with r3f to accomplish this. Turns out, three days to do this isn't a whole lot of time.
+So, there are a couple bugs, I didn't really get to work on the **actual** website as much as I wanted to. But, hey, pretty cool page management, huh!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
