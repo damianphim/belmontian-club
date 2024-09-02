@@ -1,0 +1,62 @@
+/* Hand-Drawn Text Style */
+.hand-drawn-text {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive; /* Hand-drawn or casual font */
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Hand-Drawn Border Style */
+  .hand-drawn-border {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hero Section Styling */
+  .hero-section {
+    background-color: #fdfdfd;
+    padding: 60px 20px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+  }
+  
+  .hero-section .overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  /* Button Styling */
+  .btn-outline-primary {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #000080;
+    color: white;
+  }
+  
+  /* Section Backgrounds */
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .bg-light {
+    background-color: #fdfdfd;
+  }
+  
+  /* Card Image Styling */
+  .card-img-top {
+    border-radius: 5px;
+    border: 2px solid #000;
+  }
+  
+  /* Section Heading Styling */
+  h2 {
+    
+    display: inline-block;
+  }
+  

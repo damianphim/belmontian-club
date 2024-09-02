@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Canvas } from '@react-three/fiber';
+import Background from './components/Background';
 import './App.css';
+import './styles.css';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Canvas shadows camera={{ position: [0, 10, 0], rotation: [-Math.PI / 2, 0, 0], fov: 50 }}>
+        <Background />
+      </Canvas>
     </div>
   );
 }
