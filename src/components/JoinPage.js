@@ -1,5 +1,3 @@
-// src/components/JoinPage.js
-
 import React from 'react';
 
 const JoinPage = () => {

@@ -1,5 +1,3 @@
-// src/components/OpportunitiesPage.js
-
 import React from 'react';
 
 const OpportunitiesPage = () => {
